@@ -5,6 +5,7 @@
  */
 package proyectoseguridadgit;
 import java.sql.Connection;
+
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.Scanner;
@@ -15,7 +16,7 @@ public class Bitacora {
     Conexion con = new Conexion();
     con.conectar();
     connection = con.getConnetion();
-    
+    //ljth
     try{
             //int x = 5 / 0;
              Statement stm = connection.createStatement();
